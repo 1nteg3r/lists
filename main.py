@@ -11,9 +11,13 @@ def SoberiLista(MojaLista) :
 
 print(f"kupuvac 1 ima smetka od {SoberiLista(kupuvac1)}, kupuvac 2 ima smetka od {SoberiLista(kupuvac2)} ")
 
+print(f"Dvata kupuvaci imaat vkupna  smetka od {SoberiLista(kupuvac1) + SoberiLista(kupuvac2)} ")
+
 if SoberiLista(kupuvac1) > SoberiLista(kupuvac2):
     print("Pogolema smetka ima kupuvac 1")
 elif SoberiLista(kupuvac1) < SoberiLista(kupuvac2):
     print("Pogolema smetka ima kupuvac 2")
 elif SoberiLista(kupuvac1) == SoberiLista(kupuvac2):
     print("Dvata kupuvaci imaat ista smetka")
+
+        
